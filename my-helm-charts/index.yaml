@@ -2,11 +2,11 @@ apiVersion: v1
 entries:
   my-app:
   - apiVersion: v2
-    created: "2024-07-24T13:10:17.6848909+05:30"
+    created: "2024-07-23T11:32:28.4684851+05:30"
     description: A Helm chart for deploying Spring App and MySQL
-    digest: e5ea237ef78e57c972600b29a4980859c535bfd5603e0c2bd8e2d42f5222fda0
+    digest: bf844d2b7e4a6351df99e063e1c3801b4c2b1b1fe8715703cd01b0475cb8e78e
     name: my-app
     urls:
-    - https://your-github-username.github.io/my-helm-charts/my-app-0.1.1.tgz
+    - https://rohankhedekar2803.github.io/my-helm-charts/my-app-0.1.1.tgz
     version: 0.1.1
-generated: "2024-07-24T13:10:17.6848909+05:30"
+generated: "2024-07-23T11:32:28.467159+05:30"
