@@ -3,11 +3,11 @@ entries:
   my-app:
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2024-07-24T14:00:51.6762816+05:30"
+    created: "2024-07-24T14:07:45.8572725+05:30"
     description: A Helm chart for deploying Spring App and MySQL
-    digest: 507a73b9c7aba8922464645fd499c7b2c41493b590688a968218f37e21929d5a
+    digest: 646c7966b75290a8d55f2cd6eec842360282b6913db7e0d53d0356acd1efbf6e
     name: my-app
     urls:
     - my-app-0.1.1.tgz
     version: 0.1.1
-generated: "2024-07-24T14:00:51.6747864+05:30"
+generated: "2024-07-24T14:07:45.8559851+05:30"

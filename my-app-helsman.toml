@@ -1,0 +1,31 @@
+# context defines the context of this Desired State File.
+# It is used to allow Helmsman identify which releases are managed by which DSF.
+# Therefore, it is important that each DSF uses a unique context.
+context = "my-app-deploy"  # Unique context for this DSF
+
+# metadata -- add as many key/value pairs as you want
+[metadata]
+org = "test.com/myorg/"
+maintainer = "rohan khedekar"
+description = "Example Desired State File for deploying my-app."
+
+[settings]
+kubeContext = "minikube"  # Kubernetes context to use
+globalMaxHistory = 5      # Maximum number of releases to keep in history
+
+[helmRepos]
+my-charts = "https://rohankhedekar2803.github.io/my-helm-charts"  # Helm repository URL
+
+[apps]
+
+  [apps.python-app]
+    namespace = "helsman-deploy-nms"  # Namespace for deployment
+    enabled = true          # Enable/disable the deployment
+    chart = "my-charts/my-app"  # Helm chart name in the repository
+    version = "0.1.0"       # Chart version
+    # Optional values
+    valuesFile = ""         # Use default chart values
+    test = false            # Run tests when installing for the first time
+    priority = 0            # Priority of the deployment (adjust as needed)
+    wait = true             # Wait for resources to be ready after deployment
+    timeout = 300           # Timeout in seconds for deployment
