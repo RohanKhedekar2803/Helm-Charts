@@ -7,15 +7,7 @@ entries:
     digest: bf844d2b7e4a6351df99e063e1c3801b4c2b1b1fe8715703cd01b0475cb8e78e
     name: my-app
     urls:
-    - https://rohankhedekar2803.github.io/my-helm-charts/my-app-0.1.0.tgz
-    - https://rohankhedekar2803.github.io/my-helm-charts/my-app-0.1.1.tgz   # Updated URL for version 0.1.1
-    version: 0.1.0
-  - apiVersion: v2
-    created: "2024-07-23T11:32:28.4699873+05:30"   # Updated created timestamp for version 0.1.1
-    description: A Helm chart for deploying Spring App and MySQL
-    digest: 5a8de3f4d8ee7d5a2fb8a18b4e12c49978dd6fbfd5a3ecdb05a2d6b25a6e167c
-    name: my-app
-    urls:
     - https://rohankhedekar2803.github.io/my-helm-charts/my-app-0.1.1.tgz
     version: 0.1.1
+    
 generated: "2024-07-23T11:32:28.467159+05:30"
